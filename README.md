@@ -1,5 +1,5 @@
 # django-blog
-Lesson 6 Django Project Assignment in Python Internet course
+Lesson 7 Django Project Activity in Python Internet course
 
 To run the project, go into the mysite folder and enter `python manage.py runserver`.  Load http://localhost:8000/admin/ in the browser and the page will present you with a login screen, where you can enter the superuser name and password that you created earlier in the lesson.
 
