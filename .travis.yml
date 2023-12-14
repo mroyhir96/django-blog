@@ -6,3 +6,4 @@ install:
         - python manage.py migrate
 script:
         - python3 manage.py test
+
