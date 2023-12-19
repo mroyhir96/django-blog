@@ -1,6 +1,6 @@
 from django.urls import path
 from blogging.views import PostListView, PostDetailView
-from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+#from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 
 urlpatterns = [
@@ -8,7 +8,7 @@ urlpatterns = [
     path("posts/<int:pk>/", PostDetailView.as_view(), name="blog_detail"),
 ]
 
-urlpatterns += staticfiles_urlpatterns()
+#urlpatterns += staticfiles_urlpatterns()
 
 """ urlpatterns += urlpatterns('',
     url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {
