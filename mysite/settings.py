@@ -123,7 +123,8 @@ USE_TZ = True
 STATICFILES_DIRS = (os.path.join(BASE_DIR, "staticfiles"),)
 TEMPLATE_DIRS = (os.path.join(BASE_DIR, "templates"),)
 
-STATIC_URL = "/static/"
+#set
+STATIC_URL = "/static/"   
 
 LOGIN_URL = "/login/"
 LOGIN_REDIRECT_URL = "/"
